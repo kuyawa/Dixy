@@ -88,7 +88,11 @@ songs:
     2:
         title: Stairway to heaven
         band: Led Zepellin
-````
+
+# End
+```
+
+If you need to visually signal the end of file, just use a comment.
 
 White lines and comments will be ignored by the parser.
 
