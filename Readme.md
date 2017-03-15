@@ -129,6 +129,24 @@ Since the format is so simple, parsing it is as easy as splitting lines and assi
 
 That's the only file you need to start parsing Dixy in your projects.
 
+## Use
+
+```
+// Dixy to text
+let dixy = ["name": "Taylor Swift", "age": 27]
+let text = dixy.toText()
+print(text)
+
+// Back to dixy
+let dixy2 = text.toDixy()
+
+// Dixy read from file
+let dixy3 = Dixy.load(file: "test.dix")
+
+// Dixy write to file
+let ok = dixy3.save(file: "test.dix")
+```
+
 ## Final notes
 
 This format is intended for data transmission and storage, for mapping objects to text and back, not for text documents where XML is a superior choice.
