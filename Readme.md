@@ -16,6 +16,30 @@ Ok, here we have a simple document:
 ```
 # Dixy 1.0
 
+name: Taylor Swift
+age: 27
+phones:
+    0: 555-SWIFT
+    1: 900-SWIFT
+    2: 800-TAYLOR
+body:
+    height: 6 ft
+    weight: 120 lbs
+pets:
+    0:
+        name: Fido
+        breed: chihuahua
+    1:
+        name: Tinkerbell
+        breed: bulldog
+
+```
+
+Here is another one:
+
+```
+# Dixy 1.0
+
 invoice:
     number: 01234
     date: 2016-12-31
