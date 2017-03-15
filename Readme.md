@@ -38,7 +38,7 @@ invoice:
 
 ## Rules
 
-There is only one simple rule. In Dixy, everything is a dictionary<srting:string> and the content is parsed line by line, then each line is split in two by the first colon ( : ) and each side becomes a key and a value. If there is no value on the right side then the property is considered a new dictionary. For nil values and to avoid converting a scalar into a dictionary we will use the question mark ( ? ) like:
+There is only one simple rule. In Dixy, everything is a dictionary [string:string] and the content is parsed line by line, then each line is split in two by the first colon ( : ) and each side becomes a key and a value. If there is no value on the right side then the property is considered a new dictionary. For nil values and to avoid converting a scalar into a dictionary we will use the question mark ( ? ) like:
 
 ```
 RockStar:
@@ -58,7 +58,7 @@ Latest observations:
     Alien life discovered: true
 ```
 
-It could easily be used to transmit comma separated arrays requiring extra parsing on the consumer like:
+It could be easily used to transmit comma separated arrays requiring extra parsing on the consumer, like:
 
 ```
 window:
@@ -80,7 +80,7 @@ Comments can be placed only at the beginning of a line, using ( # ) as the first
 songs:
     0: 
         title: Where the streets have no name
-        band: US
+        band: U2
     # This one is the best
     1:
         title: Clocks
