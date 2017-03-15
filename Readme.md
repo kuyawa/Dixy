@@ -77,12 +77,13 @@ Comments can be placed only at the beginning of a line, using ( # ) as the first
 
 ```
 # This is a nice list:
+
 songs:
     0: 
         title: Where the streets have no name
         band: U2
-    # This one is the best
     1:
+	    # This one is the best
         title: Clocks
         band: Coldplay
     2:
@@ -100,7 +101,7 @@ White lines and comments will be ignored by the parser.
 
 Since the format is so simple, parsing it is as easy as splitting lines and assigning keys and values to the resulting dictionary. Take a look for yourself:
 
-~~link to a dixy parser~~
+~~TODO: link to a dixy parser~~
 
 
 ## Final notes
