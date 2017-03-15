@@ -101,8 +101,9 @@ White lines and comments will be ignored by the parser.
 
 Since the format is so simple, parsing it is as easy as splitting lines and assigning keys and values to the resulting dictionary. Take a look for yourself:
 
-~~TODO: link to a dixy parser~~
+[Link to Dixy.swift](https://github.com/kuyawa/Dixy/blob/master/Dixy/Dixy.swift)
 
+That's the only file you need to start parsing Dixy in your projects.
 
 ## Final notes
 
